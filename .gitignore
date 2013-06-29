@@ -1,0 +1,14 @@
+\.DS_Store
+*\.pyc
+.lock-waf*
+.waf*
+
+build
+dist
+*\.egg-info
+demo/build/*
+node_modules
+__pycache__
+doc/_build
+doc/_static
+_build
