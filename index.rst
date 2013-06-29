@@ -6,7 +6,12 @@
 sprai = single pass read accuracy improver
 ==============================================================
 
-Contents:
+news
+===========
+2013.06.29: v0.9.1 was released.
+
+Contents
+============
 
 .. toctree::
    :maxdepth: 2
