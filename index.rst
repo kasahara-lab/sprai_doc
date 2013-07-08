@@ -17,6 +17,7 @@ Contents
    :maxdepth: 2
 
    README
+   Example
    Download
    FAQ
    Contact
