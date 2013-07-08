@@ -22,3 +22,8 @@ Contents
    FAQ
    Contact
 
+Changelogs
+=============
+2013.07.08: Example was added to this document.
+
+2013.06.29: v0.9.1 was released.
