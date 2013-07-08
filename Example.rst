@@ -8,7 +8,7 @@ For example, we showed how to assemble the phage genome.
 
 Prepare data
 =======================
-Go to `pacbiotoca wiki <http://sourceforge.net/apps/mediawiki/wgs-assembler/index.php?title=PacBioToCA>`_ and download phage data ( http://www.cbcb.umd.edu/software/PBcR/data/sampleData.tar.gz ).
+Go to `pacbiotoca wiki <http://sourceforge.net/apps/mediawiki/wgs-assembler/index.php?title=PacBioToCA>`_ and download phage data ( \http://www.cbcb.umd.edu/software/PBcR/data/sampleData.tar.gz ).
 
 ::
 
