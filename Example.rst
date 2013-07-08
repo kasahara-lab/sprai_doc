@@ -65,22 +65,22 @@ Correct errors & assemble
 
    fs2ctg_v4.pl ec.spec asm.spec > log.txt 2>&1 &
 
-Sprai gives ID to each read in all.fq and outputs c00.idfq.gz.
+Sprai gives ID to each read in *all.fq* and outputs *c00.idfq.gz*.
 
-Sprai partitions all.fq to c00_00xx.fa.
+Sprai partitions *all.fq* to *c00_00xx.fa*.
 
-c00.nin, c00.nhr and c00.nsq are output by makeblastdb.
+*c00.nin*, *c00.nhr* and *c00.nsq* are output by makeblastdb.
 
-Sprai aligns c00_00xx.fa to c00.nxx database by using blastn, correct errors and output c00_00xx.dfq.gz.
+Sprai aligns *c00_00xx.fa* to *c00.nxx* database by using blastn, correct errors and output *c00_00xx.dfq.gz*.
 dfq format contains the IDs of reads, bases, aligned depths and quality values.
 (Current Sprai outputs dummy quality values.)
 
-Sprai cut low depth regions of each read, delete '-' characters to convert to FASTQ format and outputs corrected reads in c00.fin.idfq.gz.
+Sprai cut low depth regions of each read, delete '-' characters to convert to FASTQ format and outputs corrected reads in *c00.fin.idfq.gz*.
 
-Sprai extracts longest 20X reads of the *estimated_genome_size* from c00.fin.idfq.gz.
+Sprai extracts longest 20X reads of the *estimated_genome_size* from *c00.fin.idfq.gz*.
 And feed them to Celera Assembler.
 
-Celera Assembler outputs files into c01.fin.top20x directory.
+Celera Assembler outputs files into *c01.fin.top20x* directory.
 
 Find contigs
 ===================
