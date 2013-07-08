@@ -6,10 +6,6 @@
 sprai = single pass read accuracy improver
 ==============================================================
 
-news
-===========
-2013.06.29: v0.9.1 was released.
-
 Contents
 ============
 
