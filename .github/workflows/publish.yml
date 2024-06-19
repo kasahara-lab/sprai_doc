@@ -2,8 +2,8 @@ name: Publish GitHub Pages
 
 on:
   push:
-#    branches:
-#      - master
+    branches:
+      - master
 
 jobs:
   publish:
