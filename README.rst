@@ -48,19 +48,6 @@ Sprai requires the following packages.
 
 Note that the legacy version of BLAST (without "a plus") is not compatible with Sprai.
 
-.. When you install Celera Assembler, you need to modify the source code. In ``AS_global.h`` in ``src`` directory of Celera Assembler, change from ::
-
-..     #define AS_READ_MAX_NORMAL_LEN_BITS 11
-
-.. to ::
-
-..     #define AS_READ_MAX_NORMAL_LEN_BITS 15
-
-.. This modification allows Celera assembler to accept reads longer than 2047 bp (up to 32767 bp).
-.. Without this modification, longer reads are not processed, which is a disaster for PacBio Continuous Long Reads.
-.. For details about the source code modification, please read `pacbiotoca wiki <http://sourceforge.net/apps/mediawiki/wgs-assembler/index.php?title=PacBioToCA>`_
-.. Celera assembler in PacBioToCA or SMRTAnalysis binary distributions is already patched, so you do not need to do on your own if you have installed either.
-
 After installing the prerequisites, extract the tar ball of Sprai, and do the following ::
 
     cd sprai-some-version
